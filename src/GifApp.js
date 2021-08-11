@@ -6,7 +6,7 @@ export const GifApp = () => {
 
   const [categories, setCategories] = useState(['mapaches'])
 
-  console.log(categories)
+  //console.log(categories)
 
   return <>
     <h2>Gif Expert App</h2>
