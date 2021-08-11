@@ -3,6 +3,7 @@
 }
 body {
   padding: 60px;
+  background-color: rgb(195, 172, 226);
 }
 input {
   color: grey;
@@ -25,7 +26,6 @@ input {
   height: 320px;
   width: 300px;
   background-color: black;
-
 }
 .card p {
   padding: 5px;

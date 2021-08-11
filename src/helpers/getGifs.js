@@ -8,10 +8,11 @@
     const { data } = await response.json()
 
     const gifs = data.map(img => {
+      console.log('--------',img)
       return {
         id: img.id,
-        title: img.title,
-        url: img.images?.downsized_medium.url
+        title: img.title.toUpperCase(),
+        url: img.images?.fixed_height.url
       }
     })
 

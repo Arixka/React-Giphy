@@ -9,14 +9,14 @@ export const GifApp = () => {
   //console.log(categories)
 
   return <>
-    <h2>Gif Expert App</h2>
+    <h2>Giphy App</h2>
     <AddCategory setCategories={setCategories} />
     <hr />
     {/* <button onClick={handleAdd}>Agregar</button> */}
     <ol>
       {categories.map(category =>
         <GifGrid 
-        category={category} 
+        category={category.toUpperCase()} 
         key={category} />
         )}
     </ol>
