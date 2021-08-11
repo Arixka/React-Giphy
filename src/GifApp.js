@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid'
 
 export const GifApp = () => {
 
-  const [categories, setCategories] = useState(['mapaches'])
+  const [categories, setCategories] = useState(['cats'])
 
   //console.log(categories)
 

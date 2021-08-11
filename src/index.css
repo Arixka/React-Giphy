@@ -7,7 +7,7 @@ body {
 input {
   color: grey;
   font-size: 1.2rem;
-  width: 200px;
+  width: 100%;
 }
 
 .card-grid{
@@ -24,11 +24,14 @@ input {
   overflow: hidden; 
   height: 320px;
   width: 300px;
+  background-color: black;
 
 }
 .card p {
   padding: 5px;
   text-align: center;
+  color: white;
+  vertical-align: bottom;
 }
 
 .card img{
