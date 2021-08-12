@@ -8,7 +8,7 @@
     const { data } = await response.json()
 
     const gifs = data.map(img => {
-      console.log('--------',img)
+      // console.log('--------',img)
       return {
         id: img.id,
         title: img.title.toUpperCase(),

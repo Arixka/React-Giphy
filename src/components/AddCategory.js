@@ -10,15 +10,17 @@ export const AddCategory = ({setCategories}) => {
   }
 
   const handleSubmit = (e) => {
+    console.log('hangleSubmit', inputValue)
     e.preventDefault();
     if(inputValue.trim().length>2){
-      console.log(setCategories(cat=>[inputValue,...cat]))
+      // console.log(setCategories(cat=>[inputValue,...cat]))
       setInputValue('')
     }
 
   }
   return (
     <form onSubmit={handleSubmit}>
+      <p>{inputValue}</p>
       <input
         type='text'
         placeholder='Add Category'
